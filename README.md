@@ -22,23 +22,6 @@ A modern Java 21 process execution library built for the Virtual Threads era. ne
 </dependency>
 ```
 
-### JitPack (snapshots / early access)
-
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-
-<dependency>
-    <groupId>com.github.haiderkagalwala</groupId>
-    <artifactId>nexec</artifactId>
-    <version>main-SNAPSHOT</version>
-</dependency>
-```
-
 ### PTY support (optional)
 
 `Nexec.interactive()` requires [pty4j](https://github.com/JetBrains/pty4j) on the classpath.
